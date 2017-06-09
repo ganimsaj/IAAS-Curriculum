@@ -15,7 +15,7 @@ The term *application system* denotes a piece of software supporting one or more
 
 An application system directly supports the business activities of an enterprise. Thus, it must satisfy strong requirements in terms of *non-functional properties* like availability, scalability, resiliency, and performance.
 
-IAAS is concerned with the *architecture* of such enterprise systems, i.e. their underlying structure: What kind of building blocks and connections between them are needed to build such a system and guarantee its non-functional properties? In this context, IAAS is focussed on *middleware*, i.e. what kind of middleware is needed in the componentry of an architure of an application system, and how is such middleware used properly. Another concern are proper paradigms to *model* and specify application systems as well as their *compliance* with non-functional properties. 
+IAAS is concerned with the *architecture* of such application systems, i.e. their underlying structure: What kind of building blocks and connections between them are needed to build such a system and guarantee its non-functional properties? In this context, IAAS is focussed on *middleware*, i.e. what kind of middleware is needed in the componentry of an architure of an application system, and how is such middleware used properly. Another concern are proper paradigms to *model* and specify application systems as well as their *compliance* with non-functional properties. 
 
 In order to enable proper support of the various business activities of enterprises, IAAS investigates the role of *business processes* in application systems. Both, proper modelling of business processes as well as middleware needed to support them (so-called *workflow systems* or *process management systems*) is discussed. Business processes are considered as *programs in the large*, and the composition of applications via business processes is investigated in terms of functionality as well as non-functional properties.
 
@@ -23,7 +23,7 @@ To support data exchange between application systems, IAAS is focussing on *mess
 
 To support the operational requirements of application systems like automatic provisioning and deployment as well as automatic management, the use of *Cloud Computing* as well as proper Cloud middleware and Cloud technologies is investigated. *Application topologies* and corresponding modeling languages are of particular interest. 
 
-More and more, services are not only realized by software or human beings, but by also by sensors and actuators. Thus, IAAS is also concerned with the *Internet of Things* (IoT). 
+More and more, services are not only realized by software or human beings, but also by sensors and actuators. Thus, IAAS is also concerned with the *Internet of Things* (IoT). 
 
 *Transaction models* are discussed to ensure the robustness of application systems. In addition, the IAAS studies *optimization*-potentials of application systems in general, and of business processes in particular.
 
@@ -46,19 +46,19 @@ The following is a sketch of all courses from bottom (i.e. basic courses) to the
 
 ### <a name="Modeling"></a> Modeling
 	
-*Conceptual data modeling* as well as *logical data modeling* is covered. Conceptual data modeling is introduced via the *Entity-Relationship model*, logical data modeling by explaining the *relational mode*l of data. The latter includes *SQL* and *normalization theory*. *Transformations* from entity-relationship models as well as *XML schema* is discussed. Next, *UML* diagrams for modeling the static as well as the dynamic aspects of software systems is presented. The concept of *metamodeling* is discussed and *ontology modeling* is sketched. *Petri nets* and their analysis is covered, and *BPMN* for specifying process models is introduced. 
+*Conceptual data modeling* as well as *logical data modeling* is covered. Conceptual data modeling is introduced via the *Entity-Relationship model*, logical data modeling by explaining the *relational model* of data. The latter includes *SQL* and *normalization theory*. *Transformations* from entity-relationship models as well as *XML schema* is discussed. Next, *UML* diagrams for modeling the static as well as the dynamic aspects of software systems is presented. The concept of *metamodeling* is discussed and *ontology modeling* is sketched. *Petri nets* and their analysis is covered, and *BPMN* for specifying process models is introduced. 
 
-### <a name="GAAS"></a> Architecture of Enterprise Applications
+### <a name="GAAS"></a> Architecture of Application Systems
 
 The notion of an *architect* as well as *architecture* of application systems is discussed. Based on this, the *architectural diagrams* and architecture description languages (*ADLs*) are introduced, and different *architectural styles* are discussed. *Model-driven engineering* of software is motivated. *Non-functional properties* are introduced and related to architectural modeling. *Transactions* are covered by discussing the ACID paradigm, concurrency control, and advanced transaction models. Synchronous as well as asynchronous communication is discussed along with *RPC* middleware and *message queuing* middleware. The concept of *APIs* is introduced. Based on the before, *TP monitors* as well as *application servers* are presented. A detailed discussion of *high availability*, *scalability*, *stability*, and *consistency* follows. *Pattern languages* are introduced, and a first sketch of *patterns of enterprise applications* as well *cloud computing patterns* is given. 
 
 ### <a name="LCM"></a> Loose Coupling and Message-Based Applications
 
-The notion of *enterprise application* is introduced. Based on this the need for *loose coupling* is derived and its realization via *reliable messaging* sketched. *Message-oriented middleware* (MOM) and a sample *MOM architecture* is discussed in detail, and *JMS* as a supporting standard API is presented. Next, *basic integration styles* are outlined and a survey of the *enterprise integration pattern* language is given. This language is then discussed in depth: *messaging*, messaging *endpoints*, message *channels*, message *construction*, message *routing*, message *transformation*, message *management*. The concept of a *message bus* is sketched.
+The notion of *enterprise applications* is introduced. Based on this the need for *loose coupling* is derived and its realization via *reliable messaging* sketched. *Message-oriented middleware* (MOM) and a sample *MOM architecture* is discussed in detail, and *JMS* as a supporting standard API is presented. Next, *basic integration styles* are outlined and a survey of the *enterprise integration pattern* language is given. This language is then discussed in depth: *messaging*, messaging *endpoints*, message *channels*, message *construction*, message *routing*, message *transformation*, message *management*. The concept of a *message bus* is sketched.
  
 ### <a name="SoC"></a> Service Computing
 
-The Web is presented as a *platfrom for applications*, and an overview on related trends like the Semantic Web, Cloud Computing, or Autonomic Computing is given. The notion of a *service* and *service computing* is introduced. Some Web-based user interface technologies are briefly sketched. *HTTP* is discussed in detail. Based on that, *REST* is introduced and a design method for REST-based interfaces is presented. An overview on e-*mail* related protocols is given. *SOAP*, *WSDL* and *Policy* are introduced extensively, service *discovery* is touched. *Axis* is briefly sketched. *Agreement protocols* and *coordination* are discussed in depth. Finally, the overall architecture of a *service bus* is portrayed, ongoing discussions like *microservices*, *big vs small Web Services* are commented on. 
+The Web is presented as a *platform for applications*, and an overview on related trends like the Semantic Web, Cloud Computing, or Autonomic Computing is given. The notion of a *service* and *service computing* is introduced. Some Web-based user interface technologies are briefly sketched. *HTTP* is discussed in detail. Based on that, *REST* is introduced and a design method for REST-based interfaces is presented. An overview on e-*mail* related protocols is given. *SOAP*, *WSDL* and *Policy* are introduced extensively, service *discovery* is touched. *Axis* is briefly sketched. *Agreement protocols* and *coordination* are discussed in depth. Finally, the overall architecture of a *service bus* is portrayed, ongoing discussions like *microservices*, *big vs small Web Services* are commented on. 
 
 ### <a name="BPM"></a> Business Process Management
 
@@ -66,7 +66,7 @@ An overview on the *evolution* of business process management technology begins 
 
 ### <a name="aBPM"></a> Advanced Business Process Management
 
-The concept of *subprocesses* and corresponding *coordination* technology is introduced. *Human Tasks* and *human oriented processes* as well as corresponding middleware is discussed in detail. Advanced modeling paradigms like *pi-calculus* as well as *workflow patterns* are presented. Requirements and problems of *adaptive workflows* are discussed, and an overview on *case handling* including *CMMN* is given. The role of business process technology in *outsourcing* and especially *choreographies* are introducewd. *Process compliance* is covered, and the role of *process mining* including its algorithmic aspects is revealed. 
+The concept of *subprocesses* and corresponding *coordination* technology is introduced. *Human Tasks* and *human oriented processes* as well as corresponding middleware is discussed in detail. Advanced modeling paradigms like *pi-calculus* as well as *workflow patterns* are presented. Requirements and problems of *adaptive workflows* are discussed, and an overview on *case handling* including *CMMN* is given. The role of business process technology in *outsourcing* and especially *choreographies* are introduced. *Process compliance* is covered, and the role of *process mining* including its algorithmic aspects is revealed. 
 
 ### <a name="Cloud"></a> Cloud Computing 
 
@@ -74,7 +74,7 @@ A description of *Cloud Service- and Deployment Models* begins the lecture. Next
 
 ### <a name="pract"></a> Practical Courses
 
-The practical courses are *lab courses* with hands-on concrete technology. *Programming assignments* are given that have to be worked on and solved by the students. The *Cloud* practical course is focussing on cloud technology, the *REST, SOA, BPM* practical course on exactly those. 
+The practical courses are *lab courses* with hands-on concrete technology. *Programming assignments* are given that have to be worked on and solved by the students. The *Cloud* practical course is focussing on cloud technology, the *BPM* practical course on *REST, SOA, and BPM*. 
 
 ### <a name="ITS"></a> IT Strategy
 
@@ -112,11 +112,11 @@ This cluster may be extended by attending the [practical course](#pract) on SOA,
 
 This cluster provides *distributed application architecture skills*; it consists of the following lectures, ideally to be taken in the order indicated by the arrows in the figure:
 
-* [Architecture of Enterprise Applications](#GAAS)
+* [Architecture of Application Systems](#GAAS)
 * [Loose-coupling and Message-based Applications](#LCM)
 * [Cloud Computing](#Cloud)
 
-After attending these lectures, the major concepts and technologies behind large-scale distributed applications like non-functional properties, loose-coupling, architectural styles, relevant patterns as well as cloud architectural concerns and cloud platforms a are understood. 
+After attending these lectures, the major concepts and technologies behind large-scale distributed applications like non-functional properties, loose-coupling, architectural styles, relevant patterns as well as cloud architectural concerns and cloud platforms are understood. 
 
 This cluster may be extended by attending the [practical course](#pract) on Cloud, which will add practical experiences to the acquired skill set. 
 
@@ -131,7 +131,7 @@ This cluster provides *business process skills*; it consists of the following le
 * [Business Process Management (BPM)](#BPM)
 * [Advanced Business Process Management](#aBPM)
 
-After attending these lectures, the major concepts and technologies relevent to manage business processes along their complete lifecycle are understood. This includes services as well as service composition, proper process modeling - including exception handling, subprocesses, choreographies -, process analysis, human tasks, workflow management systems, and process formalisms. 
+After attending these lectures, the major concepts and technologies relevent to manage business processes along their complete lifecycle are understood. This includes services as well as service composition, proper process modeling - including exception handling, subprocesses, choreographies, process analysis, human tasks, workflow management systems, and process formalisms. 
 
 This cluster may be extended by attending the [practical course](#pract) on SOA, REST, and BPM, which will add practical experiences to the acquired skill set. 
 
@@ -142,12 +142,12 @@ This cluster may be extended by attending the [practical course](#pract) on SOA,
 
 This cluster provides *system architecture skills*; it consists of the following lectures, ideally to be taken in the order indicated by the arrows in the figure:
 
-* [Architecture of Enterprise Applications](#GAAS)
+* [Architecture of Application Systems](#GAAS)
 * [Service Computing](#SoC)
 * [Loose-coupling and Message-based Applications](#LCM)
 * [Cloud Computing](#Cloud)
 
-After attending these lectures, the systemic aspects and technical underpinnings of application systems are understood. This includes architectural diagrams and styles, the impact of middleware on non-functional properties, the role of services (both, WSDL/SOAP style and REST style), loose-coupling and application integration, large-scale effects (like CAP), architectural patterns (for high-availability, stability etc), as well as the proper use of cloud technologies for suitable architectures of application systems. 
+After attending these lectures, the systemic aspects and technical underpinnings of application systems are understood. This includes architectural diagrams and styles, the impact of middleware on non-functional properties, the role of services (both, WSDL/SOAP style and REST style), loose-coupling and application integration, large-scale effects (like CAP), architectural patterns (for high-availability, stability, etc.), as well as the proper use of cloud technologies for suitable architectures of application systems. 
 
 ![IAAS Courses](https://github.com/FrankLeymann/IAAS-Curriculum/blob/master/figures/System-Architect-Cluster.png) 
 
@@ -156,7 +156,7 @@ After attending these lectures, the systemic aspects and technical underpinnings
 
 This cluster provides *enterprise architecture skills*; it consists of the following lectures, ideally to be taken in the order indicated by the arrows in the figure:
 
-* [Architecture of Enterprise Applications](#GAAS)
+* [Architecture of Application Systems](#GAAS)
 * [Business Process Management (BPM)](#BPM)
 * [Advanced Business Process Management](#aBPM)
 * [IT Strategy](#ITS)
